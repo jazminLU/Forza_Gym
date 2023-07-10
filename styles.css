@@ -1,0 +1,91 @@
+/* Estilos globales */
+body {
+    background-color: #121212;
+    color: #fff;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+
+
+    background-image: url('fondo.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    color: #fff;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+  
+  /* Contenedor principal */
+  .container {
+    max-width: 960px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  /* Barra de navegación */
+  .navbar {
+    background-color: #000;
+    padding: 10px 0;
+  }
+  
+  .navbar a {
+    color: #fff;
+    text-decoration: none;
+    margin-right: 20px;
+  }
+  
+  .navbar a:hover {
+    text-decoration: underline;
+  }
+  
+  /* Encabezado */
+  .header {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  /* Secciones */
+  .section {
+    margin-bottom: 30px;
+  }
+  
+  /* Carrusel */
+  .carousel {
+    display: flex;
+    overflow-x: scroll;
+  }
+  
+  .slide {
+    flex: 0 0 300px;
+    margin-right: 20px;
+    text-align: center;
+  }
+  
+  .slide img {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+    border-radius: 5px;
+  }
+  
+  .slide .caption {
+    margin-top: 10px;
+  }
+  
+  /* Estilos para el modo oscuro */
+  @media (prefers-color-scheme: dark) {
+    body {
+      background-color: #000;
+      color: #fff;
+    }
+  }
+  
+  /* Estilos para el diseño responsive */
+  @media (max-width: 768px) {
+    .container {
+      padding: 10px;
+    }
+  }
+  
